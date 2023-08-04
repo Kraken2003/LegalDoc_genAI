@@ -1,0 +1,7 @@
+Take the docs in the attached zip as your training set (you can keep 2 for testing) and generate list of clauses that are present in a contract. Consider the testing set to be a general inclusive list that should always be present in contracts.
+                                                        
+There should be an interface to test docs, where a document is uploaded, and the response contains the most import missing clauses and their possible content that is centric to the doc (not generic) uploaded and can be inserted by copy pasting in Word.
+                                                        
+For generation, you should use a combination of self-embeddings and Gen AI API of your choice (online or FOSS) to generate the contents of the missing clause. (You can save the embeddings as you please)
+                                                        
+You can give weightage to the heading of the document, that might help you generate a better list of clauses.
